@@ -21,5 +21,5 @@ app.use(express.static(path.join(__dirname, '../../public')));
 app.use(mountClient());
 
 http.createServer(app).listen(port, () => {
-    console.log(`Open Door web app is listening on http://${host}:${port} env=${env}`);
+    console.log(`React + Flux boilerplate app is listening on http://${host}:${port} env=${env}`);
 });
