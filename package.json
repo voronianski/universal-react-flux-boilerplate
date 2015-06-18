@@ -1,0 +1,54 @@
+{
+  "name": "react-flux-iso-boilerplate",
+  "version": "0.1.0",
+  "description": "React (0.13.x) + Flux (Flummox) + ReactRouter (0.13.x) + Server Rendering",
+  "main": "bin/startServer.js",
+  "scripts": {
+    "nodemon": "nodemon -w ./src bin/startServer -e js,jsx,json",
+    "start-wds": "node bin/startWebpackDevServer",
+    "start-dev": "npm run start-wds & npm run nodemon",
+    "build": "webpack --config webpack.config.prod --progress --colors -p",
+    "prestart": "npm run build",
+    "start": "node bin/startServer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voronianski/react-flux-iso-boilerplate.git"
+  },
+  "author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/voronianski/react-flux-iso-boilerplate#readme",
+  "dependencies": {
+    "Base64": "^0.3.0",
+    "c0nfig": "^0.2.1",
+    "compression": "^1.5.0",
+    "cookie-parser": "^1.3.5",
+    "es5-shim": "^4.1.6",
+    "express": "^4.12.4",
+    "flummox": "^3.5.2",
+    "moment": "^2.10.3",
+    "morgan": "^1.6.0",
+    "network-address": "^1.0.0",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "serve-favicon": "^2.3.0",
+    "superagent": "^1.2.0",
+    "swig": "^1.4.2",
+    "versionify-assets": "^0.1.3"
+  },
+  "devDependencies": {
+    "babel": "^5.5.8",
+    "babel-core": "^5.5.8",
+    "babel-loader": "^5.1.4",
+    "babel-runtime": "^5.5.8",
+    "css-loader": "^0.14.5",
+    "envify": "^3.4.0",
+    "node-libs-browser": "^0.5.2",
+    "nodemon": "^1.3.7",
+    "react-hot-loader": "^1.2.7",
+    "style-loader": "^0.12.3",
+    "uglify-js": "^2.4.23",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.9.0"
+  }
+}

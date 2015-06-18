@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <title>{{title}}</title>
+
+    {% if (env !== 'development') %}
+        <link rel="stylesheet" type="text/css" href="{{mainCSS}}">
+    {% endif %}
+
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="app">{{appString|safe}}</div>
+
+    <script>window.__snapshot__ = {{snapshot|json_encode|safe}};</script>
+    <script src="{{mainJS}}" type="text/javascript" async defer></script>
+</body>
+</html>
