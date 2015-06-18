@@ -12,7 +12,7 @@
 
 ## How to use
 
-Just `git clone` this repository and run `npm install` inside it. 
+Just `git clone git@github.com:voronianski/react-flux-iso-boilerplate.git` this repository and run `npm install` inside it. 
 
 Then you can choose whether to:
 
