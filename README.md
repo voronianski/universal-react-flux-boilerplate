@@ -17,7 +17,7 @@ Just `git clone git@github.com:voronianski/react-flux-iso-boilerplate.git` and r
 Then you can choose whether to:
 
 - `npm run start-dev` app in development mode with hot reloading
-- or `npm start` to make build with necessary environment (e.g. `NODE_ENV=production npm start` will make production build and run app in production mode) and start application server
+- or `npm start` to make build/start with necessary environment (e.g. `NODE_ENV=production npm start` will make production build and run app in production mode)
 
 ## Styles
 
