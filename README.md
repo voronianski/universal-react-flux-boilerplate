@@ -1,4 +1,4 @@
-# Universal-React-Flux Boilerplate
+# Universal React Flux Boilerplate
 
 > Starting point that I've used in several projects.
 
