@@ -1,6 +1,6 @@
-# react-flux-iso-boilerplate
+# Universal-React-Flux- Boilerplate
 
-> More or less stabilized starting point used in several of my projects.
+> Starting point that used in several of my projects.
 
 ## What's inside?
 
