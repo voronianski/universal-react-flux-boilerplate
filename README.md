@@ -1,6 +1,6 @@
-# Universal-React-Flux- Boilerplate
+# Universal-React-Flux Boilerplate
 
-> Starting point that used in several of my projects.
+> Starting point that I've used in several projects.
 
 ## What's inside?
 
