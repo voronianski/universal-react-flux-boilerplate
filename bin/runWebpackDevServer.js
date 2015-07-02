@@ -5,9 +5,9 @@ var webpackDevConfig = require('../webpack.config.dev.js');
 new WebpackDevServer(webpack(webpackDevConfig), {
     publicPath: webpackDevConfig.output.publicPath,
     hot: true,
-    stats: { colors: true },
+    stats: {colors: true},
     historyApiFallback: true,
-    headers: { 'Access-Control-Allow-Origin': '*'},
+    headers: {'Access-Control-Allow-Origin': '*'},
     inline: true
 }).listen(webpackDevConfig.hotReloadPort, function (err) {
     if (err) {
