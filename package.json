@@ -1,6 +1,6 @@
 {
   "name": "universal-react-flux-boilerplate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React (0.13.x) + Flux (Flummox) + ReactRouter (0.13.x) + Server Rendering",
   "main": "bin/startServer.js",
   "scripts": {
