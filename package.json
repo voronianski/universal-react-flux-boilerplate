@@ -2,7 +2,7 @@
   "name": "universal-react-flux-boilerplate",
   "version": "0.1.1",
   "description": "React (0.13.x) + Flux (Flummox) + ReactRouter (0.13.x) + Server Rendering",
-  "main": "bin/startServer.js",
+  "main": "bin/runServer.js",
   "scripts": {
     "nodemon": "nodemon -w ./src bin/runServer -e js,jsx,json",
     "start-wds": "node bin/runWebpackDevServer",
